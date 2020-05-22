@@ -14,6 +14,6 @@
     - `composer install`
     - `php -S localhost:1337 -t public`
 ## Cofiguration
-Edit .env file for database connection configuration.
+Add .env file for database connection configuration.
 ## Licence
 MIT
