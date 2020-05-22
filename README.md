@@ -17,8 +17,8 @@
 ## Documentation
 | Method  |  Endpoints  | Usage | Example | Note |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-| GET  | /surat/{last}/{next}  | Menampilkan surat berdasarkan jumlah surat   | /surat/0/36 | Menampilkan surat mulai dari 0 sampai 36. |
-| GET  |  /ayat/{id_surat}/{last}/{next}  | Menampilkan ayat berdasarkan id surat | /ayat/2/0/10 | Menampilkan surat ke 2 mulai dari ayat 1 sampai 10. |
+| GET  | /surat/{last}/{next}  | Menampilkan surat berdasarkan jumlah surat   | /surat/1/36 | Menampilkan surat mulai dari 1 sampai 36. |
+| GET  |  /ayat/{id_surat}/{last}/{next}  | Menampilkan ayat berdasarkan id surat | /ayat/2/1/10 | Menampilkan surat ke 2 mulai dari ayat 1 sampai 10. |
 
 
 
