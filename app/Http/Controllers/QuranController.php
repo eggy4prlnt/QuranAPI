@@ -19,13 +19,13 @@ class QuranController extends Controller
 
     public function showSurat($last, $next)
     {
-      $get = Surat::where('id', '>', $last)->limit($next)->get();
+      $get = Surat::where('id', '>=', $last)->limit($next)->get();
       return response()->json($get, 200, array('Content-Type' => 'application/json;charset=utf8'), JSON_UNESCAPED_UNICODE);
     }
 
     public function showAyat($id_surat, $last, $next)
     {
-      $get = Ayat::where('id_surat', $id_surat)->where('ayat', '>', $last)->limit($next)->get();
+      $get = Ayat::where('id_surat', $id_surat)->where('ayat', '>=', $last)->limit($next)->get();
       return response()->json($get, 200, array('Content-Type' => 'application/json;charset=utf8'), JSON_UNESCAPED_UNICODE);
     }
 }
