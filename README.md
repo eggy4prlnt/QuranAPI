@@ -8,6 +8,9 @@
 [![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
 ###### A Simple Al Quran API
 
+## Cofiguration
+Add .env file for database connection configuration.
+
 ## Instalation
 - Import database.sql
 - Setup
@@ -21,9 +24,6 @@
 | GET  |  /ayat/{id_surat}/{last}/{next}  | Menampilkan ayat berdasarkan id surat | /ayat/2/1/10 | Menampilkan surat ke 2 mulai dari ayat 1 sampai 10. |
 
 
-
-## Cofiguration
-Add .env file for database connection configuration.
 
 ## Licence
 MIT
