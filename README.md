@@ -18,7 +18,7 @@ Add .env file for database connection configuration.
     - `php -S localhost:1337 -t public`
 
 ## Documentation
-| Method  |  Endpoints  | Usage | Example | Note |
+| Method  |  Endpoints  | Usage | Example | Description |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 | GET  | /surat/{last}/{next}  | Menampilkan surat berdasarkan jumlah surat   | /surat/1/36 | Menampilkan surat mulai dari 1 sampai 36. |
 | GET  |  /ayat/{id_surat}/{last}/{next}  | Menampilkan ayat berdasarkan id surat | /ayat/2/1/10 | Menampilkan surat ke 2 mulai dari ayat 1 sampai 10. |
