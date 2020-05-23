@@ -21,7 +21,7 @@ Add .env file for database connection configuration.
 | Method  |  Endpoints  | Usage | Example | Description |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 | GET  | /surat/{last}/{next}  | Menampilkan surat berdasarkan jumlah surat   | /surat/1/36 | Menampilkan surat mulai dari 1 sampai 36. |
-| GET  |  /ayat/{id_surat}/{last}/{next}  | Menampilkan ayat berdasarkan id surat | /ayat/2/1/10 | Menampilkan surat ke 2 mulai dari ayat 1 sampai 10. |
+| GET  |  /ayat/{id_surat}/{last}/{next}  | Menampilkan ayat berdasarkan id surat | /ayat/2/15/10 | Menampilkan 10 ayat mulai dari ayat 15 surat ke 2 |
 
 
 
