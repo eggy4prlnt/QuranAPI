@@ -1,4 +1,4 @@
-# Al Quran API
+# Al Quran Rest API
 
 [![N|Solid](https://img.pngio.com/lumen-logo-api-framework-nordic-apis-lumen-png-558_246.png)](https://lumen.laravel.com)
 
